@@ -1,0 +1,65 @@
+
+@import "tailwindcss";
+
+
+@theme{
+  --color-brand: #dceae5;
+  --color-secondary: #f6f9f8;
+  --color-accent: #496157;
+  --color-muted: #939082;
+  --color-greenaccent: #496157;
+  --font-fontfam: Arial, sans-serif;
+  }
+
+
+@layer base{
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    button{
+      cursor: pointer;
+    }
+  }
+
+  .body{
+    background-color: var(--color-secondary);
+  }
+
+
+.brand-logo-link{
+  color: var(--color-muted);
+}
+
+.nav-container{
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-container{
+  padding-top: 10em;
+}
+
+/* Show Burder styles */
+.show_list li{
+  list-style: circle;
+
+
+
+}
+.show_list li::marker{
+  font-size: 35px;
+  background-color: var(--color-greenaccent);
+
+}
+
+/* Footer Styles */
+
+.footer-inner-container{
+  padding: 2.5em;
+}
+
+.bottom-footer{
+  padding: 1.5em;
+}
