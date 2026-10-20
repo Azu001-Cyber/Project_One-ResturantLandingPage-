@@ -2,6 +2,7 @@
 import burgerVideo from '../assets/Creating_restaurant_cheeseburger…_20260927160615.mp4';
 import BtnComponent from '../ui/BtnComponent';
 
+
 const labels = [
     {
         id: '1',
@@ -22,6 +23,7 @@ const labels = [
         description: 'Commodo ultamocrper lacus contrary popular trelief massa.'
     },
 ]
+
 export default  function ShowBurgerComponent(){
     return(
         <div className='bg-brand'>
@@ -32,7 +34,7 @@ export default  function ShowBurgerComponent(){
 
                     <div className='inner flex flex-wrap lg:flex-nowrap justify-around items-center basis-10'>
                         <div className='max-w-[40em] max-h-[30em]'>
-                            <video src={burgerVideo} autoPlay muted controls className='border-none rounded-3xl'></video>
+                            <video src={burgerVideo} autoPlay muted playsInline className='border-none rounded-3xl'></video>
                         </div>
 
 
@@ -52,8 +54,7 @@ export default  function ShowBurgerComponent(){
                                             <div className='flex items-center space-x-2.5'>
                                                 <div>
                                                 {/* icon */}
-                                                {item.logo}
-
+                                                    {item.logo}
                                                 </div>
                                                 <div>
                                                     {/* text */}
@@ -68,7 +69,7 @@ export default  function ShowBurgerComponent(){
                             </div>
 
                             <div className='flex flex-col space-y-3'>
-                                <p>commondo ultamcorper lacus vestibulun sed non blendit <br />
+                                <p className='text-muted'>commondo ultamcorper lacus vestibulun sed non blendit <br />
                                 massa enim up one of the more obscure latin words
                                 </p>
 

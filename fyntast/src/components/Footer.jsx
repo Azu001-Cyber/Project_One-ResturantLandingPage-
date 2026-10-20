@@ -9,7 +9,7 @@ export default function FooterComponent(){
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold justify-self-center">Outstanding Delivery Service <span className="text-accent">+456 <span> 819 </span> <span>4852</span> </span> </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 footer-inner-container justify-self-center">
                     <div>
-                        <h4 className="font-bold">FYNTAST</h4>
+                        <h4 className="font-bold">FYNTASTIQUE</h4>
                     </div>
                     <div>
                         <h5 className="mb-5 text-sm font-medium">FIND OUR RESTAURANT</h5>
@@ -44,7 +44,7 @@ export default function FooterComponent(){
                         </ul>
                     </div>
                     <div>
-                        <p>Azu001-Cyber <span>@{getyear.getFullYear()}</span> All Rights Reserved By Azu001-Cyber</p>
+                        <p>Moses <span>@{getyear.getFullYear()}</span> All Rights Reserved By Moses</p>
                     </div>
                 </div>
             </div>

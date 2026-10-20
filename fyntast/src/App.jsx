@@ -8,6 +8,8 @@ import NavComponent from './components/Navigation';
 import FooterComponent from './components/Footer';
 import TopChoiceComponent from './components/Topchoice';
 import ShowBurgerComponent from './components/ShowBurger';
+import LimitedMenuComponent from './components/LimitedAccessMenu';
+import MeetChefsComponent from './components/Chefs';
 //
 function App() {
   
@@ -18,6 +20,8 @@ function App() {
     <HeroComponent/>
     <TopChoiceComponent/>
     <ShowBurgerComponent/>
+    <LimitedMenuComponent/>
+    <MeetChefsComponent/>
     <FooterComponent/>
     </>
   )

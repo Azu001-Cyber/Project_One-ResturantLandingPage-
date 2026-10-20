@@ -21,11 +21,11 @@
     button{
       cursor: pointer;
     }
+    .body{
+      background-color: var(--color-secondary);
+    }
   }
 
-  .body{
-    background-color: var(--color-secondary);
-  }
 
 
 .brand-logo-link{
@@ -33,12 +33,26 @@
 }
 
 .nav-container{
-  width: 100%;
-  max-width: 100%;
+  width: 90%;
+  max-width: 90%;
+  justify-self: center;
 }
 
 .hero-container{
   padding-top: 10em;
+}
+@media screen and (max-width:64rem) {
+  .hero-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/fyntast-image-1.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    position: relative;
+
+  }
+  .nav-container{
+    z-index: 1;
+  }
 }
 
 /* Show Burder styles */

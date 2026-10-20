@@ -1,10 +1,12 @@
 
 import {ChevronRight} from 'lucide-react';
 
-function RightArrow () {
+function RightArrow ({className, onShiftRightScroll}) {
     return (
-        <div className='rounded-full'>
-            <ChevronRight/>
+        <div>
+            <button className={className} onClick={onShiftRightScroll}>
+                <ChevronRight className='size-8'/>
+            </button>
         </div>
     )
 } 
