@@ -9,7 +9,7 @@ export default function HeroComponent(){
         <div>
             <div className="bg-brand flex justify-around hero-container pb-16 px-10 ">
                 <div className="flex flex-col space-y-10">
-                    <h1 className="font-bold text-4xl md:text-6xl">Crafting the Best Taste <br /> with Passion</h1>
+                    <h1 className="font-bold text-4xl">Crafting the Best Taste <br /> with Passion</h1>
 
                     <p className="text-muted font-medium max-lg:text-white">
                         We serve freshly prepared dishes made with <br/>
