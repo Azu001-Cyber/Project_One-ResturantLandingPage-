@@ -4,8 +4,8 @@ export default function MapComponent(){
     return(
         <div>
             <div className="bg-brand p-14">
-                <h2 className="sectionheading max-md:mb-10">Where You Can Find Us</h2>
-                <div className="flex flex-wrap justify-around items-center space-y-10">
+                <h2 className="sectionheading mb-10">Where You Can Find Us</h2>
+                <div className="flex flex-col md:flex-row justify-around items-center space-y-10">
                     <div>
                         <p className="text-muted text-2xl font-medium "> Great food, good company, and a warm welcome await you. <br />
                             Find us on the map and come enjoy the FYNTASTIQUE experience.
