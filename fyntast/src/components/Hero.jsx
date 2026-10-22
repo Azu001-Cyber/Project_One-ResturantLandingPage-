@@ -7,7 +7,7 @@ import imageTwo from "../assets/fyntast-image-2.jpg"
 export default function HeroComponent(){
     return( 
         <div>
-            <div className="bg-brand flex justify-around hero-container pb-16">
+            <div className="bg-brand flex justify-around hero-container pb-16 px-10 ">
                 <div className="flex flex-col space-y-10">
                     <h1 className="font-bold text-4xl md:text-6xl">Crafting the Best Taste <br /> with Passion</h1>
 
