@@ -4,34 +4,7 @@ import MenuButton from "../ui/menubtn";
 import BtnComponent from "../ui/BtnComponent";
 
 export default function LimitedMenuComponent(){
-    /*
-    TODO: Goal is create a menu state that can chnnage based 
-        on selected category. 
-        I. Filter menu by category
-        II. Map the filter items to create cards out to the items
-        III. A function to handle the categories button clicks
-        IV. A funciton to updated the category for the filter method to work as intended
-        V. after much thinking i thougth of wrting a event handler into a map function
-            - the map function will have a function will have a function that execute the Map feature on click.
-        VI. Ok i will have a funtion that updates a category state then use that category to Filter menu items 
-            - then Map the items into cards. on each button click the
-            - category state will change > filter > map > component state
-        VII. I think i should create diffrent function for each button category
-        VIII. TO SEE HOW I SOLVED THIS COMPONENT PROBLEM READ THE README.md file
-     */
-    // () => {(Menu.filter((food) => { food.category === 'FastFood'}))}
 
-    // function Test(){
-    //     return (
-    //         Menu.filter((food) => {
-    //             food.category == 'FastFood'
-    //         }).map((item) => {
-
-    //         })
-    //     )
-    // }
-
-    // const [CurrentMenu, SetMenu] = useState();
 
     const [activeCategory, setActiveCategory] = useState('FastFood');
     const [isLoading, setIsLoading] = useState(false);
@@ -45,20 +18,14 @@ export default function LimitedMenuComponent(){
             setIsLoading(false)
     }, 1000)
 
-        // console.log('The current category ' + category)
     }
-
-
-
-    // console.log('The current category state is: ', activeCategory)
 
     return (
         <div>
             <div className="p-18 flex flex-col space-y-10">
-                <h2 className="text-2xl sm:text-2xl md:text-3xl font-semibold">Limited Access Menu</h2>
+                <h2 className="sectionheading font-semibold">Limited Access Menu</h2>
 
                 <div className="flex justify-between items-center">
- 
                     <div className="flex space-x-5 items-center flex-wrap ">
                         <MenuButton text={'Fast Food'}  onclick={() => HandleCategory("FastFood")} className={`${activeCategory === 'FastFood' ? "bg-greenaccent text-white py-2 px-5 active-btn border rounded-lg transition-colors duration-400" : ""} text-nowrap font-medium`}/>
                         <MenuButton text={'Morning'}  onclick={() => HandleCategory('Morning')} className={`${activeCategory === 'Morning' ? "bg-greenaccent text-white py-2 px-5 active-btn border rounded-lg transition-colors duration-400" : ""} font-medium`}/>
@@ -87,7 +54,7 @@ export default function LimitedMenuComponent(){
                                     <div className="flex flex-col space-y-5 mt-5 p-5">
                                         <div className="flex justify-between">
                                             <h1>{food.name}</h1>
-                                            <p>{food.price}</p>
+                                            <p>{`£${food.price}`}</p>
                                         </div>
 
                                         <p className="text-muted">{food.description}</p>

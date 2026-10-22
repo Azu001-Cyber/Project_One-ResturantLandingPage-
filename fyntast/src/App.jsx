@@ -10,6 +10,7 @@ import TopChoiceComponent from './components/Topchoice';
 import ShowBurgerComponent from './components/ShowBurger';
 import LimitedMenuComponent from './components/LimitedAccessMenu';
 import MeetChefsComponent from './components/Chefs';
+import MapComponent from './components/onMap';
 //
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
     <TopChoiceComponent/>
     <ShowBurgerComponent/>
     <LimitedMenuComponent/>
+    <MapComponent/>
     <MeetChefsComponent/>
     <FooterComponent/>
     </>

@@ -1,66 +1,62 @@
 import { useState } from "react";
 
 import BtnComponent from "../ui/BtnComponent";
-import {Menu} from 'lucide-react';
+import {Menu, X} from 'lucide-react';
 
 
 function NavComponent(){
-    const [dropdown, setDropdown] = useState (false);
+    const [isOpen, setisOpen] = useState (false);
 
-    console.log('Current Dropdown useState ' + dropdown)
+    console.log('Current Dropdown useState ' + isOpen)
 
     const HandleDropdown = () => {
-        if(dropdown === false){
-            setDropdown(true)
-        }else{
-            setDropdown(false)
-        }
+        setisOpen(!isOpen)
     }
 
-    {dropdown ? (
-            <div>
-                <nav className="flex justify-around items-center fixed bg-secondary nav-container py-10">
+    return(
+            <div className="fixed top-0 left-0 z-50 w-full">
+                <nav className="flex relative justify-between items-center bg-secondary py-5 px-5 m-5 rounded-full">
                     <div><a href="" className="brand-logo font-bold text-lg text-black-600">FYNTASTIQUE</a></div>
 
-                    <ul className="flex items-center gap-10">
-                        <li><a href="" className="brand-logo-link">Home</a></li>
-                        <li><a href="" className="brand-logo-link">About</a></li>
-                        <li><a href="" className="brand-logo-link">Menu</a></li>
-                        <li><a href="" className="brand-logo-link">Pages</a></li>
-                        <li><a href="" className="brand-logo-link">Blog</a></li>
-                        <li><a href="" className="brand-logo-link">Contact</a></li>
-                        <li><a href="" className="brand-logo-link">Branch</a></li>
-                    </ul>
 
-                    <div>
-                        <BtnComponent text='Find A Table ' className='border-0 rounded-full bg-greenaccent text-white py-2 px-5 font-medium'/>
+                    <div className="hidden md:block">
+                        <ul className="flex items-center gap-10">
+                            <li><a href="" className="brand-logo-link font-medium">Home</a></li>
+                            <li><a href="" className="brand-logo-link font-medium">About</a></li>
+                            <li><a href="" className="brand-logo-link font-medium">Menu</a></li>
+                            <li><a href="" className="brand-logo-link font-medium">Pages</a></li>
+                            <li><a href="" className="brand-logo-link font-medium">Blog</a></li>
+                            <li><a href="" className="brand-logo-link font-medium">Contact</a></li>
+                            <li><a href="" className="brand-logo-link font-medium">Branch</a></li>
+
+                            <BtnComponent text='Find A Table ' className='border-0 rounded-full bg-greenaccent text-white py-2 px-5 font-medium'/>
+                        </ul>
                     </div>
-                <button onClick={() => HandleDropdown()} aria-label="">
-                        <Menu/>
-                </button>
+
+                    <div className="md:hidden">
+                        <button onClick={HandleDropdown}>
+                            {!isOpen ? <Menu/> : <X/>}
+                        </button>
+                    </div>
+
+                    {isOpen && (
+                        <div className="absolute top-full left-0 w-full rounded-2xl bg-secondary py-5 px-5 shadow-lg md:hidden">
+                            <ul className="flex flex-col gap-5">
+                                <li><a href="" className="brand-logo-link font-medium">Home</a></li>
+                                <li><a href="" className="brand-logo-link font-medium">About</a></li>
+                                <li><a href="" className="brand-logo-link font-medium">Menu</a></li>
+                                <li><a href="" className="brand-logo-link font-medium">Pages</a></li>
+                                <li><a href="" className="brand-logo-link font-medium">Blog</a></li>
+                                <li><a href="" className="brand-logo-link font-medium">Contact</a></li>
+                                <li><a href="" className="brand-logo-link font-medium">Branch</a></li>
+
+                                <BtnComponent text='Find A Table ' className='border-0 rounded-full bg-greenaccent text-white py-2 px-5 font-medium'/>
+                            </ul>
+                        </div>
+                    )}
                 </nav>
             </div>
         )
-    : (<div>
-                <nav className="flex justify-between items-center fixed  bg-secondary nav-container py-5 px-5 m-5 rounded-full">
-                    <div><a href="" className="brand-logo font-bold text-lg text-black-600">FYNTAST</a></div>
-    
-                    <ul className="flex items-center gap-10">
-                        <li><a href="" className="brand-logo-link">Home</a></li>
-                        <li><a href="" className="brand-logo-link">About</a></li>
-                        <li><a href="" className="brand-logo-link">Menu</a></li>
-                        <li><a href="" className="brand-logo-link">Pages</a></li>
-                        <li><a href="" className="brand-logo-link">Blog</a></li>
-                        <li><a href="" className="brand-logo-link">Contact</a></li>
-                        <li><a href="" className="brand-logo-link">Branch</a></li>
-                    </ul>
-    
-                    <div>
-                        <BtnComponent text='Find A Table ' className='border-0 rounded-full bg-greenaccent text-white py-2 px-5 font-medium'/>
-                    </div>
-                </nav>
-            </div>
-        )}
-    }
+}
 
 export default NavComponent;

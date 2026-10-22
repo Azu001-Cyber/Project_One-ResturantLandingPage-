@@ -54,7 +54,7 @@ const Menu = [
         image: buffalowings,
         name: 'Buffalo Wings',
         description:'Crispy, jumbo chicken wings tossed in signature cayenne hot sauce. They come with blue cheese dressing and celery.',
-        price: '$70',
+        price: '70',
         category:'FastFood'
 
     },
@@ -63,7 +63,7 @@ const Menu = [
         image: twinpattyburger,
         name: 'Twin Patty Burger',
         description:'Two flame-grilled beef patties stacked with cheddar, lettuce, and tomatoes on a brioche bun. finished with our signature house sauce.',
-        price: '$80',
+        price: '80',
         category:'FastFood'
 
     },
@@ -72,7 +72,7 @@ const Menu = [
         image: breadeggpasta,
         name: 'Bread Egg Pasta',
         description:'Fresh, tender pasta tossed in a rich, creamy egg yolk sauce. finished with crispy garlic breadcrumbs and freshly grated Parmesan.',
-        price: '$75',
+        price: '75',
         category:'FastFood'
 
     },
@@ -81,7 +81,7 @@ const Menu = [
         image: zestychickenwings,
         name: 'Zesty Chicken Wings',
         description:'Golden-fried wings glazed in a bright, citrus-infused herb sauce with a kick of cracked black peper and fresh lime zest.',
-        price: '$70',
+        price: '70',
         category:'FastFood'
 
     },
@@ -90,7 +90,7 @@ const Menu = [
         image: bisonmeatburger,
         name: 'Bison Meat Burger',
         description:'A lean, premium bison meat patty grilled to perfection, topped with caramelized onions, sharp Swiss cheese, and a smoky barbecue aioli.',
-        price: '$70',
+        price: '70',
         category:'FastFood'
 
     },
@@ -99,7 +99,7 @@ const Menu = [
         image: crispystripcombo,
         name: 'Chicken Strip Combo',
         description:'Crunch into tender, hand-breaded chicken strips and house-cut sea salt fries, served with your choice of smoky honey mustard or BBQ sauce.',
-        price: '$80',
+        price: '80',
         category:'FastFood'
 
     },
@@ -108,7 +108,7 @@ const Menu = [
         image: crispybakedchickn,
         name: 'Crispy Baked Chicken',
         description:'Oven-roasted chicken seasoned with rustic herbs, featuring an incredibly crisp skin while remaining perfectly tender and juicy inside.',
-        price: '$75',
+        price: '75',
         category:'FastFood'
 
     },
@@ -117,7 +117,7 @@ const Menu = [
         image: italianneopolianpizza,
         name: 'Italian Neopolitan Pizza',
         description:'Enjoy a wood-fired pizza topped with San Marzano tomato sauce, fresh buffalo mozzarella, aromatic basil, and olive oil on an airy crust.',
-        price: '$70',
+        price: '70',
         category:'FastFood'
 
     },
@@ -127,7 +127,7 @@ const Menu = [
         image: sunrisestack,
         name: 'Sunrise Stack',
         description:'Fluffy buttermilk pancakes layered with fresh wild berries, whipped Madagascar vanilla cream, and pure vermont maple syrup',
-        price: '$70',
+        price: '70',
         category:'Morning'
 
     },
@@ -136,7 +136,7 @@ const Menu = [
         image: brocheblissfrenchtoast,
         name: 'Brioche Bliss French Toast',
         description:'Thick-out artisan brioche soaked in cinnamon-nutmeg custard, tourched with caramelized sugar, and served with a pecan-butter drizzle.',
-        price: '$80',
+        price: '80',
         category:'Morning'
 
     },
@@ -145,7 +145,7 @@ const Menu = [
         image: goldenhourbenedict,
         name: 'Golden Hour Benedict',
         description:'Two poached farm-fresh eggs over thick-out Canadian bacon and toasted English muffins smothered in a citrus-infused hollandaise sauce.',
-        price: '$75',
+        price: '75',
         category:'Morning'
 
     },
@@ -154,7 +154,7 @@ const Menu = [
         image: ironskillethashbrown,
         name: 'Iron-Skillet Hash',
         description:'Enjoy crispy fingerling potatoes tossed with smoked chorizo, bell peppers, melted cheddar, and two sunny-side-up eggs.',
-        price: '$70',
+        price: '70',
         category:'Morning'
 
     },
@@ -163,7 +163,7 @@ const Menu = [
         image: zenavocadotoast,
         name: 'Zen Avocado Toast',
         description:'Smashed Hass avocado on sourdough topped with everything bagel seasoning, heirloom tomatoes, and microgreens.',
-        price: '$70',
+        price: '70',
         category:'Morning'
 
     },
@@ -172,7 +172,7 @@ const Menu = [
         image: botanicalberrybowl,
         name: 'Botanical Berry Bowl',
         description:'A chilled blend of acai and wild berries, topped with house-made hemp seed granola, sliced kiwi, and a drizzle of local hot honey.',
-        price: '$80',
+        price: '80',
         category:'Morning'
 
     },
@@ -181,7 +181,7 @@ const Menu = [
         image: morningrushborrito,
         name: 'Morning Rush Burrito',
         description:'A warm flour tortilla packed with fluffy scrambled eggs, applewood smoked becon, pepper jack cheese, and roasted fire-salsa.',
-        price: '$75',
+        price: '75',
         category:'Morning'
 
     },
@@ -190,7 +190,7 @@ const Menu = [
         image: artisansunrisebagel,
         name: 'Artisan Sunrise Bagel',
         description:'An everything brioche bagel layered with house-cured smoked salmon, whipped caper cream cheese, and thinly sliced red onions',
-        price: '$70',
+        price: '70',
         category:'Morning'
 
     },
@@ -200,7 +200,7 @@ const Menu = [
         image: harvestgrainbowl,
         name: 'Harvest Grain Bowl',
         description:'A vibrant mix of warm quinoa and wild rice topped with roasted sweet potatoes, crisp cucumber, shredded carrots, avocado, and a tangy lemon-tahini dressing.',
-        price: '$70',
+        price: '70',
         category:'Weekday Lunch'
 
     },
@@ -209,7 +209,7 @@ const Menu = [
         image: grilledchcickenceasersaled,
         name: 'Grilled Chicken Caesar Salad',
         description:'Crisp romaine lettuce tossed in a creamy garlic Caesar dressing, topped with tender grilled chicken breast, herb-marinated croutons, and shaved Parmesan cheese',
-        price: '$80',
+        price: '80',
         category:'Weekday Lunch'
 
     },
@@ -218,7 +218,7 @@ const Menu = [
         image: turkeyavocadoclub,
         name: 'Turkey Avocado Club',
         description:'Oven-roasted turkey breast, crispy smoked bacon, fresh avocado, lettuce, and vine-ripened tomatoes with garlic aioli on toasted whole-grain sourdough.',
-        price: '$75',
+        price: '75',
         category:'Weekday Lunch'
 
     },
@@ -227,7 +227,7 @@ const Menu = [
         image: spicychipotlechickenwrap,
         name: 'Spicy Chipotle Chicken Wrap',
         description:'A warm flour tortilla packed with crispy or grilled chicken, real cheddar cheese, crisp lettuce, tomatoes, and a smoky, spicy chipotle mayo',
-        price: '$70',
+        price: '70',
         category:'Weekday Lunch'
 
     },
@@ -236,7 +236,7 @@ const Menu = [
         image: sesamegingernoodelbowl,
         name: 'Sesame Ginger Noodle Bowl',
         description:'Tender wok-tossed noodles and crisp stir-fry vegetables coated in a savory sesame-ginger soy sauce, finished with a sprinkle of green onions and toasted sesame seeds',
-        price: '$70',
+        price: '70',
         category:'Weekday Lunch'
 
     },
@@ -245,7 +245,7 @@ const Menu = [
         image: tomatobasilsoupandgrilledchesscomb,
         name: 'Tomato Basil Soup & Grilled Cheese Comb',
         description:'A comforting bowl of rich, velvety roasted tomato basil soup paired with a gooey, golden-brown triple-cheese grilled sandwich.',
-        price: '$80',
+        price: '80',
         category:'Weekday Lunch'
 
     },
@@ -254,7 +254,7 @@ const Menu = [
         image: smokybbqporksliders,
         name: 'Smoky BBQ Pulled Pork Sliders',
         description:'Tender, slow-cooked pulled pork tossed in a rich hickory barbecue sauce, piled high on soft brioche slider buns with a topping of crisp, tangy apple cider slaw.',
-        price: '$75',
+        price: '75',
         category:'Weekday Lunch'
 
     },
@@ -263,7 +263,7 @@ const Menu = [
         image: mediterraneanveggiepiadina,
         name: 'Mediterranean Veggie Piadina',
         description:'Flaky, warm Italian flatbread folded over creamy garlic hummus, roasted red peppers, marinated artichoke hearts, crumbled feta cheese, and fresh baby spinach.',
-        price: '$70',
+        price: '70',
         category:'Weekday Lunch'
 
     },
@@ -273,7 +273,7 @@ const Menu = [
         image: garlicbutterribeysteak,
         name: 'Garlic Butter Ribeye Steak',
         description:'A premium, thick-cut ribeye steak seared to perfection in a garlic-herb butter basting, served alongside creamy garlic mashed potatoes and grilled asparagus',
-        price: '$70',
+        price: '70',
         category:'Dinner'
 
     },
@@ -282,7 +282,7 @@ const Menu = [
         image: pansearedhoneygarlicsalmon,
         name: 'Pan-Seared Honey Garlic Salmon',
         description:'A crisp, pan-seared salmon fillet glazed in a sweet and savory honey-garlic soy reduction, accompanied by fluffy jasmine rice and roasted broccolini.',
-        price: '$80',
+        price: '80',
         category:'Dinner'
 
     },
@@ -291,7 +291,7 @@ const Menu = [
         image: lemonherblinguine,
         name: 'Lemon Herb Seafood Linguine',
         description:'A decadent pasta tossed with succulent shrimp, sea scallops, and tender calamari in a light, zesty white wine, garlic, and fresh herb butter sauce.',
-        price: '$75',
+        price: '75',
         category:'Dinner'
 
     },
@@ -300,7 +300,7 @@ const Menu = [
         image: tuscangarlichalfchicken,
         name: 'Tuscan Garlic Chicken',
         description:'Pan-seared chicken breasts simmered in a creamy garlic and sun-dried tomato sauce with fresh baby spinach, served over a bed of tender angel hair pasta.',
-        price: '$70',
+        price: '70',
         category:'Dinner'
 
     },
@@ -309,7 +309,7 @@ const Menu = [
         image: classicroastedhalfchciken,
         name: 'Classic Roasted Half-Chicken',
         description:'Herb-marinated half-chicken roasted until golden and crisp, served with roasted root vegetables and a savory rosemary pan gravy',
-        price: '$70',
+        price: '70',
         category:'Dinner'
 
     },
@@ -318,7 +318,7 @@ const Menu = [
         image: wildmushroomrisotto,
         name: 'Wild Mushroom Risotto',
         description:'Savor creamy, slow-stirred Arborio risotto loaded with sautéed wild mushrooms, white wine, rich truffle oil, and freshly shaved Parmesan.',
-        price: '$80',
+        price: '80',
         category:'Dinner'
 
     },
@@ -327,7 +327,7 @@ const Menu = [
         image: bakedeggplant,
         name: 'Baked Eggplant Parmesan',
         description:'Crispy, herb-breaded eggplant slices layered with rich marinara sauce, melted mozzarella, and fresh basil, baked until golden and bubbling.',
-        price: '$75',
+        price: '75',
         category:'Dinner'
 
     },
@@ -336,7 +336,7 @@ const Menu = [
         image: bourbonglazeporkchops,
         name: 'Bourbon Glazed Pork Chops',
         description:'Savor a thick-cut, bone-in pork chop with a sweet bourbon glaze, served with sweet potato wedges and apple-pecan slaw.',
-        price: '$70',
+        price: '70',
         category:'Dinner'
 
     },
@@ -346,7 +346,7 @@ const Menu = [
         image: smokedrosemaryoldfashioned,
         name: 'Smoked Rosemary Old Fashioned',
         description:'Savor premium bourbon stirred with aromatic bitters and orange zest, served over ice and infused with tableside rosemary smoke.',
-        price: '$70',
+        price: '70',
         category:'Beverage'
 
     },
@@ -354,8 +354,8 @@ const Menu = [
         id: '34',
         image: hibiscusberryspritz,
         name: 'Hibiscus Berry Spritz (Mocktail)',
-        description:'A vibrant, alcohol-free blend of house-brewed hibiscus tea, tart cranberry juice, and fresh lime, topped with sparkling water and a mint garnish',
-        price: '$80',
+        description:'Savor a vibrant blend of house-brewed hibiscus tea, cranberry, lime, and sparkling water finished with a fresh mint garnish.',
+        price: '80',
         category:'Beverage'
 
     },
@@ -364,7 +364,7 @@ const Menu = [
         image: spicedmangomargarita,
         name: 'Spiced Mango Margarita',
         description:'Chilled Crisp silver tequila shaken with fresh mango puree, lime juice, and agave nectar, served in a glass rimed with zesty Tajín seasoning',
-        price: '$75',
+        price: '75',
         category:'Beverage'
 
     },
@@ -373,7 +373,7 @@ const Menu = [
         image: cucumberbasillemonade,
         name: 'Cucumber Basil Lemonade',
         description:'Freshly squeezed lemons blended with crisp cucumber juice and muddled basil leaves for an ultra-refreshing midday or evening cooler',
-        price: '$70',
+        price: '70',
         category:'Beverage'
 
     },
@@ -382,7 +382,7 @@ const Menu = [
         image: peachjasmineicedtea,
         name: 'Peach Jasmine Iced Tea',
         description:'Cold-brewed fragrant jasmine green tea lightly sweetened with organic peach syrup and served over crushed ice with a fresh peach slice',
-        price: '$70',
+        price: '70',
         category:'Beverage'
 
     },
@@ -391,7 +391,7 @@ const Menu = [
         image: toastedmarshmallowlatte,
         name: 'Toasted Marshmallow Latte',
         description:'Fresh espresso blended with steamed milk and toasted marshmallow syrup, topped with charred mini marshmallows.',
-        price: '$80',
+        price: '80',
         category:'Beverage'
 
     },
@@ -400,7 +400,7 @@ const Menu = [
         image: spicedchaicider,
         name: 'Spiced Chai Cider',
         description:'A comforting winter blend of hot apple cider and aromatic masala chai spices, finished with a cinnamon stick stirrer.',
-        price: '$75',
+        price: '75',
         category:'Beverage'
 
     },
@@ -409,7 +409,7 @@ const Menu = [
         image: blackberryvanillacreamsoda,
         name: 'Blackberry Vanilla Cream Soda',
         description:'Fresh blackberry compote smashed and combined with sparkling water, a dash of sweet vanilla bean syrup, and a splash of heavy cream',
-        price: '$70',
+        price: '70',
         category:'Beverage'
 
     },
@@ -419,7 +419,7 @@ const Menu = [
         image: moltenchocolatelavacake,
         name: 'Molten Chocolate Lava Cake',
         description:'A rich, velvety dark chocolate cake with a warm, gooey liquid chocolate center, served with a scoop of premium vanilla bean ice cream.',
-        price: '$70',
+        price: '70',
         category:'Dessert'
 
     },
@@ -428,7 +428,7 @@ const Menu = [
         image: warmstickydatapudding,
         name: 'Warm Sticky Date Pudding',
         description:'A moist, finely chopped date sponge cake soaked in a rich, warm butterscotch sauce, served alongside smooth clotted cream',
-        price: '$80',
+        price: '80',
         category:'Dessert'
 
     },
@@ -436,8 +436,8 @@ const Menu = [
         id: '43',
         image: classicnewyorkcheesecake,
         name: 'Classic New York Cheesecake',
-        description:'A dense, creamy cheesecake on a buttery graham cracker crust, finished with a vibrant, sweet strawberry compote and a dollop of fresh whipped cream',
-        price: '$75',
+        description:'Savor a dense, creamy cheesecake on a graham cracker crust, topped with sweet strawberry compote and fresh whipped cream',
+        price: '75',
         category:'Dessert'
 
     },
@@ -446,7 +446,7 @@ const Menu = [
         image: traditionalitaliantiramis,
         name: 'Traditional Italian Tiramis',
         description:'Espresso-soaked ladyfingers layered with a silky mascarpone cream cheese filling, lightly dusted with premium cocoa powder.',
-        price: '$70',
+        price: '70',
         category:'Dessert'
 
     },
@@ -455,7 +455,7 @@ const Menu = [
         image: madagascarvanillaicremebrulee,
         name: 'Madagascar Vanilla Crème Brûlée',
         description:'A rich, smooth custard base infused with real Madagascar vanilla bean, topped with a layer of hardened, perfectly caramelized sugar',
-        price: '$70',
+        price: '70',
         category:'Dessert'
 
     },
@@ -463,8 +463,8 @@ const Menu = [
         id: '46',
         image: artisangelatotrio,
         name: 'Artisanal Gelato Trio',
-        description:'Three scoops of hand-crafted gelato classic dark chocolate, creamy pistachio, and zesty raspberry sorbet served with a crisp waffle pirouette',
-        price: '$80',
+        description:'Indulge in three scoops of hand-crafted gelato featuring classic dark chocolate, creamy pistachio, and raspberry sorbet served with a crisp waffle pirouette.',
+        price: '80',
         category:'Dessert'
 
     },
@@ -473,7 +473,7 @@ const Menu = [
         image: cinnamonapplecrisp,
         name: 'Cinnamon Apple Crisp',
         description:'Warm, tender spiced apples baked under a golden, crunchy oat and brown sugar streusel topping, served with a drizzle of warm salted caramel',
-        price: '$75',
+        price: '75',
         category:'Dessert'
 
     },
@@ -482,9 +482,11 @@ const Menu = [
         image: lemonblueberrytar,
         name: 'Lemon Blueberry Tar',
         description:'A buttery, flaky pastry shell filled with a sharp, tangy lemon curd and topped with a mountain of fresh, plump blueberries and powdered sugar',
-        price: '$70',
+        price: '70',
         category:'Dessert'
 
     },
 ]
+
+
 export default Menu;

@@ -78,7 +78,7 @@ export default function TopChoiceComponent(){
         return(
         <div>
             <div className="justify-self-center py-10 px-10">
-                <h2 className="mb-14 font-semibold text-2xl md:text-3xl lg:text-4xl text-center">Top Choice on The Menu</h2>
+                <h2 className="mb-14 font-semibold sectionheading text-center">Top Choice on The Menu</h2>
 
                 <div className='menu-section'>
                     <div ref={viewport} className="container-card viewport max-w-6xl overflow-x-auto max-md:max-w-[625px]">
@@ -107,7 +107,7 @@ export default function TopChoiceComponent(){
 
                                     <div className="card-body p-5 justify-self-center space-y-2">
                                         <h3 className="text-center font-medium text-nowrap">{item.name}</h3>
-                                        <BtnComponent text={item.buttonText} className={'text-white font-medium bg-greenaccent py-[0.4em] px-10 rounded-full text-nowrap w-full hover:bg-accent transition-colors duration-300'}/>
+                                        <BtnComponent text={item.buttonText} className={'text-white font-medium bg-greenaccent py-[0.4em] px-10 rounded-full text-nowrap w-full hover:bg-accent transition-colors duration-300 .active-button'}/>
                                     </div>
 
                                 </div>

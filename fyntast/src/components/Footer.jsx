@@ -1,4 +1,7 @@
 
+import Instagram from '../assets/instagram.svg';
+import X from '../assets/x.svg';
+import Youtube from '../assets/youtube.svg';
 
 export default function FooterComponent(){
 
@@ -6,7 +9,7 @@ export default function FooterComponent(){
     return (
         <div>
             <div className="bg-black text-white pt-10">
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold justify-self-center">Outstanding Delivery Service <span className="text-accent">+456 <span> 819 </span> <span>4852</span> </span> </h3>
+                <h3 className="sectionheading font-semibold justify-self-center">Outstanding Delivery Service <span className="text-accent">+456 <span> 819 </span> <span>4852</span> </span> </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 footer-inner-container justify-self-center">
                     <div>
                         <h4 className="font-bold">FYNTASTIQUE</h4>
@@ -25,8 +28,16 @@ export default function FooterComponent(){
                     </div>
                     <div>
                         <h5 className="mb-5 text-sm font-medium">CONTACT US</h5>
-                        <div>
-
+                        <div className="flex justify-around items-center">
+                            <a href="">
+                                <img src={<Instagram/>}/>
+                            </a>
+                            <a href="https://www.twitter.com/user/@azu001_cyber" className="text-white">
+                                <img src={<X/>}/>
+                            </a>
+                            <a href="">
+                                <img src={<Youtube/>}/>
+                            </a>
                         </div>
                     </div>
                 </div>

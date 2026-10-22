@@ -26,7 +26,11 @@
     }
   }
 
-
+  @layer component{
+    .sectionheading{
+      @apply text-2xl md:text-4xl font-semibold
+    }
+  }
 
 .brand-logo-link{
   color: var(--color-muted);
@@ -56,7 +60,7 @@
 }
 
 /* Show Burder styles */
-.show_list li{
+/* .show_list li{
   list-style: circle;
 
 
@@ -66,7 +70,7 @@
   font-size: 35px;
   background-color: var(--color-greenaccent);
 
-}
+} */
 
 /* Footer Styles */
 
